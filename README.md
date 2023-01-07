@@ -1,8 +1,8 @@
 # kampusmerdeka-v4
 List of all position and quotas from Batch Period 4th Kampus Merdeka  - open source (don't sue me mister) (idk if this illegal) (letsggoooo)
 
-# Analisis-Sentimen-Twitter-Kebijakan-Vaksin-Covid19_NLP-Bayes_FASTAPI
-Analisis Sentimen Twitter Vaksin Covid19 dengan Algoritma NLP and Naive Bayes. Predict di-deploy dengan REST API oleh [FastAPI](https://fastapi.tiangolo.com/)
+# kampusmerdeka-v4
+(link) (nanti)
 
 ## **Techstack**
 
