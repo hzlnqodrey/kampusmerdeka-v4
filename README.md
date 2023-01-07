@@ -8,10 +8,10 @@ List of all position and quotas from Batch Period 4th Kampus Merdeka  - open sou
 
 | Stack                                         | Version |
 |-----------------------------------------------|:-------:|
-|----------------= [FETCH API AND PROCESSES DATA]* =----------------|:-------:|
+|----------------= [FETCH API AND PROCESSES DATA](https://github.com/hzlnqodrey/collect-mbkm-api-data) =----------------|:-------:|
 | [Python](https://www.python.org/)             |   3.8   |
 | [FastAPI](https://fastapi.tiangolo.com/)      | 0.80.0  |
-|----------------= [FRONTEND APP]* =---------------|:-------:|
+|----------------= [FRONTEND APP](https://github.com/hzlnqodrey/kampusmerdeka-v4) =---------------|:-------:|
 | [TypeScript](https://www.python.org/)         |  4.8.4  |
 | [Tailwind](https://www.npmjs.com/package/tailwindcss)|  3.2.4  |
 | [NextJS](https://www.npmjs.com/package/next)    |  13.0.3 |
