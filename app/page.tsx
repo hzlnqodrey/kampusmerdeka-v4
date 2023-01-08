@@ -50,10 +50,10 @@ export default function Home() {
       <div className={styles.center}>
         <Image
           className={styles.logo}
-          src="/next.svg"
+          src="/images/KampusMerdeka.svg"
           alt="Next.js Logo"
-          width={180}
-          height={37}
+          width={400}
+          height={87}
           priority
         />
         <div className={styles.thirteen}>
