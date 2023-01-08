@@ -12,7 +12,7 @@ interface Routes {
 
 const routes: Routes[] = [
     { name: "Magang Merdeka", path: "/magang", desc: "List semua mitra magang merdeka yang bisa kamu daftar di Periode Batch 4 MSIB" },
-    { name: "Studi Independen", path: "/studiindependen", desc: "List semua mitra studi independen yang bisa kamu daftar di Periode Batch 4 MSIB" },
+    { name: "Studi Independen", path: "/studi-independen", desc: "List semua mitra studi independen yang bisa kamu daftar di Periode Batch 4 MSIB" },
     { name: "Saweria", path: "https://saweria.co/hzlnqodrey", desc: "My Saweria Profile." },
 
 ]

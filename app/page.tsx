@@ -28,6 +28,7 @@ export default function Home() {
             <code className={styles.code}>hzlnqodrey</code>
           </p>
         </a>
+
         <div>
           <a
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
@@ -66,6 +67,12 @@ export default function Home() {
             priority 
           />
         </div>
+      </div>
+
+      <div className="container mx-auto w-5/12 sm:text-sm md:text-base lg:text-lg xl:text-xl text-lg text-center">
+        <p className={inter.className}>
+          <span className="underline decoration-solid"><a href="https://kampusmerdeka.kemdikbud.go.id/" target="_blank" rel="noopener noreferrer">Kampus Merdeka</a></span> adalah bagian dari kebijakan Merdeka Belajar oleh Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi (Kemendikbudristek) yang memberikan seluruh mahasiswa <span className="text-yellow-400">kesempatan untuk mengasah kemampuan sesuai bakat dan minat</span> dengan <span className="text-yellow-400">terjun langsung ke dunia kerja</span> sebagai <span className="text-yellow-400">langkah persiapan karier.</span>
+        </p>
       </div>
     </main>
   )
