@@ -8,10 +8,26 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
-        </p>
+        <a 
+          href="https://github.com/hzlnqodrey"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <p className="inline">
+            Github&nbsp; 
+            <Image
+              src="./images/github-logo.svg"
+              alt="github logo"
+              width={20}
+              height={20}
+              className="inline"
+              priority
+            >
+            </Image>
+            &nbsp;
+            <code className={styles.code}>hzlnqodrey</code>
+          </p>
+        </a>
         <div>
           <a
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
