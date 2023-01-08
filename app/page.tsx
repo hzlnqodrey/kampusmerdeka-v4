@@ -48,7 +48,72 @@ export default function Home() {
         </div>
       </div>
 
-      <div>
+      <div className={styles.slider}>
+        <div className={styles.slide_track}>
+          {/* 10 Slides */}
+          <div className={styles.slide}>
+            <Image className={styles.slide_img} alt="slide image" width={100} height={50} quality={100} priority src="/images/bg-mitra/mitra-1.png"/>
+          </div>
+          <div className={styles.slide}>
+            <Image className={styles.slide_img} alt="slide image" width={100} height={50} quality={100} priority src="/images/bg-mitra/mitra-2.png"/>
+          </div>
+          <div className={styles.slide}>
+            <Image className={styles.slide_img} alt="slide image" width={100} height={50} quality={100} priority src="/images/bg-mitra/mitra-3.png"/>
+          </div>
+          <div className={styles.slide}>
+            <Image className={styles.slide_img} alt="slide image" width={100} height={50} quality={100} priority src="/images/bg-mitra/mitra-4.png"/>
+          </div>
+          <div className={styles.slide}>
+            <Image className={styles.slide_img} alt="slide image" width={100} height={50} quality={100} priority src="/images/bg-mitra/mitra-5.png"/>
+          </div>
+          <div className={styles.slide}>
+            <Image className={styles.slide_img} alt="slide image" width={100} height={50} quality={100} priority src="/images/bg-mitra/mitra-6.png"/>
+          </div>
+          <div className={styles.slide}>
+            <Image className={styles.slide_img} alt="slide image" width={100} height={50} quality={100} priority src="/images/bg-mitra/mitra-7.png"/>
+          </div>
+          <div className={styles.slide}>
+            <Image className={styles.slide_img} alt="slide image" width={100} height={50} quality={100} priority src="/images/bg-mitra/mitra-8.png"/>
+          </div>
+          <div className={styles.slide}>
+            <Image className={styles.slide_img} alt="slide image" width={100} height={50} quality={100} priority src="/images/bg-mitra/mitra-9.png"/>
+          </div>
+          <div className={styles.slide}>
+            <Image className={styles.slide_img} alt="slide image" width={100} height={50} quality={100} priority src="/images/bg-mitra/mitra-10.png"/>
+          </div>
+          
+          {/* Doubled Up */}
+          <div className={styles.slide}>
+            <Image className={styles.slide_img} alt="slide image" width={100} height={50} quality={100} priority src="/images/bg-mitra/mitra-1.png"/>
+          </div>
+          <div className={styles.slide}>
+            <Image className={styles.slide_img} alt="slide image" width={100} height={50} quality={100} priority src="/images/bg-mitra/mitra-2.png"/>
+          </div>
+          <div className={styles.slide}>
+            <Image className={styles.slide_img} alt="slide image" width={100} height={50} quality={100} priority src="/images/bg-mitra/mitra-3.png"/>
+          </div>
+          <div className={styles.slide}>
+            <Image className={styles.slide_img} alt="slide image" width={100} height={50} quality={100} priority src="/images/bg-mitra/mitra-4.png"/>
+          </div>
+          <div className={styles.slide}>
+            <Image className={styles.slide_img} alt="slide image" width={100} height={50} quality={100} priority src="/images/bg-mitra/mitra-5.png"/>
+          </div>
+          <div className={styles.slide}>
+            <Image className={styles.slide_img} alt="slide image" width={100} height={50} quality={100} priority src="/images/bg-mitra/mitra-6.png"/>
+          </div>
+          <div className={styles.slide}>
+            <Image className={styles.slide_img} alt="slide image" width={100} height={50} quality={100} priority src="/images/bg-mitra/mitra-7.png"/>
+          </div>
+          <div className={styles.slide}>
+            <Image className={styles.slide_img} alt="slide image" width={100} height={50} quality={100} priority src="/images/bg-mitra/mitra-8.png"/>
+          </div>
+          <div className={styles.slide}>
+            <Image className={styles.slide_img} alt="slide image" width={100} height={50} quality={100} priority src="/images/bg-mitra/mitra-9.png"/>
+          </div>
+          <div className={styles.slide}>
+            <Image className={styles.slide_img} alt="slide image" width={100} height={50} quality={100} priority src="/images/bg-mitra/mitra-10.png"/>
+          </div>
+        </div>
       </div>
 
       <div className={styles.center}>

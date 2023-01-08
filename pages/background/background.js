@@ -3,7 +3,7 @@ import styles from './background.module.css'
 
 import { useEffect, useRef } from "react";
 
-const SPEED = 0.017;
+const SPEED = 0.02;
 
 const Background = () => {
     const canvasRef = useRef(null);
@@ -42,7 +42,7 @@ const Background = () => {
     return <canvas className={styles.canvas} ref={canvasRef} width="32px" height="32px" />;
 };
 
-const C1 = 220; // 190, 
+const C1 = 250; // 190, 
 const C2 = 20; // 20,
 
 export const color = function (context, { x, y, r, g, b }) {
@@ -58,8 +58,8 @@ export const G = function (x, y, time) {
     return Math.floor(
         C1 +
         C2 *
-        Math.cos(
-            (x * x * Math.sin(time / 100) + y * y * Math.sin(time / 5)) / 1000
+        Math.sin(
+            (x * x * Math.atanh(time / 100) + y * y * Math.sin(time / 500)) / 10
         )
     );
 };
@@ -68,9 +68,9 @@ export const B = function (x, y, time) {
     return Math.floor(
         C1 +
         C2 *
-        Math.sin(
+        Math.asinh(
             2 * Math.sin(time / 9) +
-            ((x - 100) * (x - 100) + (y - 100) * (y - 100)) / 1100
+            ((x - 100) * (x - 100) + (y - 100) * (y - 100)) / 1
         )
     );
 };
