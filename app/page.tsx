@@ -52,8 +52,8 @@ export default function Home() {
         <Image
           className={styles.logo}
           src="/images/KampusMerdeka.svg"
-          alt="Next.js Logo"
-          width={400}
+          alt="Kampus Merdeka Logo"
+          width={500}
           height={87}
           priority
           quality={100}
@@ -61,18 +61,26 @@ export default function Home() {
         <div className={styles.thirteen}>
           <Image 
             src="/images/v4.svg" 
-            alt="13" 
+            alt="v4 Logo" 
             width={40} 
             height={31} 
-            priority 
+            priority
+            quality={100}
           />
         </div>
       </div>
 
-      <div className="container mx-auto w-5/12 sm:text-sm md:text-base lg:text-lg xl:text-xl text-lg text-center">
-        <p className={inter.className}>
-          <span className="underline decoration-solid"><a href="https://kampusmerdeka.kemdikbud.go.id/" target="_blank" rel="noopener noreferrer">Kampus Merdeka</a></span> adalah bagian dari kebijakan Merdeka Belajar oleh Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi (Kemendikbudristek) yang memberikan seluruh mahasiswa <span className="text-yellow-400">kesempatan untuk mengasah kemampuan sesuai bakat dan minat</span> dengan <span className="text-yellow-400">terjun langsung ke dunia kerja</span> sebagai <span className="text-yellow-400">langkah persiapan karier.</span>
-        </p>
+      <div className="grid grid-rows-2 justify-items-center items-center px-1 lg:px-2 xl:px-2 2xl:20">
+        <div className="w-full text-base text-center top-2 sm:w-full md:w-full sm:text-sm md:text-base lg:text-lg xl:text-2xl">
+          <p className={inter.className}>
+            Periode Registrasi <span className="text-yellow-400">Batch 4 MSIB</span> | 20 Desember 2022 - 20 Januari 2023
+          </p>
+        </div>
+        <div className="w-full text-sm text-center sm:w-10/12 sm:mt-10 md:max-w-2xl sm:text-sm md:text-base lg:text-lg xl:text-base xl:mt-1">
+          <p className={inter.className}>
+            <span className="underline decoration-solid"><a href="https://kampusmerdeka.kemdikbud.go.id/" target="_blank" rel="noopener noreferrer">Kampus Merdeka</a></span> adalah bagian dari kebijakan Merdeka Belajar oleh Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi (Kemendikbudristek) yang memberikan seluruh mahasiswa <span className="text-yellow-400">kesempatan untuk mengasah kemampuan sesuai bakat dan minat</span> dengan <span className="text-yellow-400">terjun langsung ke dunia kerja</span> sebagai <span className="text-yellow-400">langkah persiapan karier.</span>
+          </p>
+        </div>
       </div>
     </main>
   )
