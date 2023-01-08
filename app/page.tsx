@@ -49,15 +49,17 @@ export default function Home() {
       </div>
 
       <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/images/KampusMerdeka.svg"
-          alt="Kampus Merdeka Logo"
-          width={500}
-          height={87}
-          priority
-          quality={100}
-        />
+        <div>
+          <Image
+            className={styles.logo}
+            src="/images/KampusMerdeka.svg"
+            alt="Kampus Merdeka Logo"
+            width={500}
+            height={87}
+            priority
+            quality={100}
+          />
+        </div>
         <div className={styles.thirteen}>
           <Image 
             src="/images/v4.svg" 
