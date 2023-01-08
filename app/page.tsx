@@ -55,9 +55,16 @@ export default function Home() {
           width={400}
           height={87}
           priority
+          quality={100}
         />
         <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
+          <Image 
+            src="/images/v4.svg" 
+            alt="13" 
+            width={40} 
+            height={31} 
+            priority 
+          />
         </div>
       </div>
 
