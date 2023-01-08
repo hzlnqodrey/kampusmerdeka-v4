@@ -48,6 +48,9 @@ export default function Home() {
         </div>
       </div>
 
+      <div>
+      </div>
+
       <div className={styles.center}>
         <div>
           <Image
@@ -74,9 +77,9 @@ export default function Home() {
 
       <div className="grid grid-rows-2 justify-items-center items-center px-1 lg:px-2 xl:px-2 2xl:20">
         <div className="w-full text-base text-center top-2 sm:w-full md:w-full sm:text-sm md:text-base lg:text-lg xl:text-2xl">
-          <p className={inter.className}>
-            Periode Registrasi <span className="text-yellow-400">Batch 4 MSIB</span> | 20 Desember 2022 - 20 Januari 2023
-          </p>
+          <h1 className={inter.className}>
+            Periode Registrasi <span className="text-yellow-400 font-bold">Batch 4 MSIB</span>: <span className="text-yellow-50 font-medium">20 Desember 2022 - 20 Januari 2023</span>
+          </h1>
         </div>
         <div className="w-full text-sm text-center sm:w-10/12 sm:mt-10 md:max-w-2xl sm:text-sm md:text-base lg:text-lg xl:text-base xl:mt-1">
           <p className={inter.className}>

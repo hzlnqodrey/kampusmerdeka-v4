@@ -1,0 +1,41 @@
+#container {
+    overflow: hidden;
+    background: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.canvas {
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    height: 15vh;
+    top: 17.5%;
+    z-index: -100;
+}
+
+@keyframes movement {
+    0% {
+        transform: translateY(-50%) translateX(-50%) rotate(40deg) translateX(-20%);
+    }
+
+    25% {
+        transform: translateY(-50%) translateX(-50%) skew(15deg, 15deg) rotate(110deg) translateX(-5%);
+    }
+
+    50% {
+        transform: translateY(-50%) translateX(-50%) rotate(210deg) translateX(-35%);
+    }
+
+    75% {
+        transform: translateY(-50%) translateX(-50%) skew(-15deg, -15deg) rotate(300deg) translateX(-10%);
+    }
+
+    100% {
+        transform: translateY(-50%) translateX(-50%) rotate(400deg) translateX(-20%);
+    }
+}
