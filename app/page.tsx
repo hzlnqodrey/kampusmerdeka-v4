@@ -52,7 +52,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className={inter.className}>
+          <h2 className="text-3xl font-bold underline">
             Docs <span>-&gt;</span>
           </h2>
           <p className={inter.className}>
