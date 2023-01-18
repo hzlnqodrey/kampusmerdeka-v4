@@ -7,7 +7,7 @@ deta.sh for da win [https://www.deta.sh/]
 # kampusmerdeka-v4 [FRONTEND]
 List of all position and quotas from Batch Period 4th Kampus Merdeka  - open source (don't sue me mister) (idk if this illegal) (letsggoooo)
 
-you can see the website here: [Link](https://kampusmerdeka-v4.vercel.app/)
+you can see the website here: [Link](https://kampusmerdeka-v4.vercel.app/) 
 
 ## **Techstack**
 

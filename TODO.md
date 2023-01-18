@@ -11,8 +11,9 @@ Project Description
 
 ### In Progress
 
-- [ ] create magang component ⭐  
+- [ ] Create Studi Independen Component  
 
 ### Done ✓
 
+- [x] create magang component ⭐  
 
