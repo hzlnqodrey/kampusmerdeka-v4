@@ -6,10 +6,12 @@ Project Description
 
 ### Todo
 
-- [ ] create magang component ⭐  
+- [ ] Create Mitra Dropdown Component  
+- [ ] Create Search Component  
 
 ### In Progress
 
+- [ ] create magang component ⭐  
 
 ### Done ✓
 

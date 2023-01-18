@@ -1,4 +1,10 @@
-# kampusmerdeka-v4
+# collect-mbkm-api-data [BACKEND]
+API Link: https://nw78p8.deta.dev/magang_data_api
+
+fuck vercel (I can't deploy python backend into vercel because websocket missing setup.py somewhat wtf) :(( 
+deta.sh for da win [https://www.deta.sh/]
+
+# kampusmerdeka-v4 [FRONTEND]
 List of all position and quotas from Batch Period 4th Kampus Merdeka  - open source (don't sue me mister) (idk if this illegal) (letsggoooo)
 
 you can see the website here: [Link](https://kampusmerdeka-v4.vercel.app/)
@@ -14,8 +20,9 @@ you can see the website here: [Link](https://kampusmerdeka-v4.vercel.app/)
 | [TypeScript](https://www.python.org/)         |  4.8.4  |
 | [Tailwind](https://www.npmjs.com/package/tailwindcss)|  3.2.4  |
 | [NextJS](https://www.npmjs.com/package/next)    |  13.0.3 |
+|----------------= [API DOCS](https://nw78p8.deta.dev/docs) =-------------------|:-------:|
+| [SwaggerUI](https://nw78p8.deta.dev/docs)|  OAS3  |
 
-*Link will be deployed later
 
 ==========================================================================================
 
