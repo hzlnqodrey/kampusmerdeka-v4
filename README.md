@@ -13,7 +13,7 @@ you can see the website here: [Link](https://kampusmerdeka-v4.vercel.app/)
 
 | Stack                                         | Version |
 |-----------------------------------------------|:-------:|
-|----------------= [WEB SCRAPPING](https://github.com/hzlnqodrey/collect-mbkm-api-data) =----------------|:-------:|
+|----------------= [WEB SCRAPPING & BACKEND](https://github.com/hzlnqodrey/collect-mbkm-api-data) =----------------|:-------:|
 | [Python](https://www.python.org/)             |   3.8   |
 | [FastAPI](https://fastapi.tiangolo.com/)      | 0.80.0  |
 |----------------= [FRONTEND APP](https://github.com/hzlnqodrey/kampusmerdeka-v4) =---------------|:-------:|
