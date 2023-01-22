@@ -58,33 +58,35 @@ export default function Magang() {
                     {items.slice(0, visible).map((magang: any, index: number) => (
                         <div
                             key={index}
-                            className="rounded-lg p-6 bg-slate-500 backdrop-filter backdrop-blur-xl bg-clip-padding bg-opacity-50 hover:scale-110 transition ease-in-out duration-50"
+                            className="rounded-lg p-6 bg-white  bg-clip-padding hover:scale-110 transition ease-in-out duration-50"
                         >
-                            <Image
-                                src={magang.url_logo}
-                                alt={magang.nama_mitra}
-                                quality={90}
-                                width="0"
-                                height="0"
-                                sizes="100vw"
-                                className="w-full h-auto"
-                            />
-                            <h1 className="text-white text-2xl mt-4">
+                            <div className="align-middle justify-center">
+                                <Image
+                                    src={magang.url_logo}
+                                    alt={magang.nama_mitra}
+                                    quality={85}
+                                    width="0"
+                                    height="0"
+                                    sizes="100vw"
+                                    className="mx-auto w-1/2 h-auto place-self-center place-items-center justify-center"
+                                />
+                            </div>
+                            <h1 className="text-black text-2xl mt-4">
                                 {magang.nama_posisi}
                             </h1>
-                            <p className="text-gray-400 text-lg mt-2">
+                            <p className="text-black text-lg mt-2">
                                 Mitra: {magang.nama_mitra}
                             </p>
-                            <p className="text-gray-400 text-lg mt-2">
+                            <p className="text-black text-lg mt-2">
                                 Quota: {magang.kuota_posisi}
                             </p>
-                            <p className="text-gray-400 text-lg mt-2">
+                            <p className="text-black text-lg mt-2">
                                 Status: {magang.tipe_aktivitas}
                             </p>
-                            <p className="text-gray-400 text-lg mt-2">
+                            <p className="text-black text-lg mt-2">
                                 Location: {magang.lokasi_kerja}
                             </p>
-                            <p className="text-gray-400 text-lg mt-2">
+                            <p className="text-black text-lg mt-2">
                                 Requirements:{" "}
                                 <a
                                     href={`https://kampusmerdeka.kemdikbud.go.id/program/magang/browse/${magang.id_mitra}/${magang.id_posisi}`}
@@ -101,7 +103,7 @@ export default function Magang() {
             )}
             <div className="flex justify-center items-center">
                 <button
-                    className="flex py-6 mt-4 relative bg-slate-900 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 text-sm text-white font-semibold h-12 px-6 rounded-lg flex items-center bg-slate-700 hover:bg-slate-600 pointer-events-auto"
+                    className="flex py-6 mt-4 relative bg-slate-900 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 text-sm text-white font-semibold h-12 px-6 rounded-lg items-center bg-slate-700 hover:bg-slate-600 pointer-events-auto"
                     onClick={handlerLoadMore}
                 >
                     Show More
