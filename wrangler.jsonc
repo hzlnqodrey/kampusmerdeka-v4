@@ -1,6 +1,6 @@
 {
   "name": "worker-name",
-  "compability_date": "2025-05-10",
+  "compatibility_date": "2025-05-10",
   "assets": {
     "directory": "./public"
   }
