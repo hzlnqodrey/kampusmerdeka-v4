@@ -1,7 +1,6 @@
 {
   "name": "worker-name",
   "compability_date": "2025-05-10",
-  "main": "./app/head.ts",
   "assets": {
     "directory": "./public"
   }
